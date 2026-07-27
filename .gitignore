@@ -57,3 +57,47 @@ data/
 *.mkv
 
 web
+
+
+# ==========================================
+# Backend Specific Overrides (backend/)
+# ==========================================
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/data/
+backend/media/*.mp4
+backend/.env
+
+# ==========================================
+# Frontend Specific Overrides (animerec/)
+# ==========================================
+animerec/node_modules/
+animerec/dist/
+animerec/dist-ssr/
+animerec/*.local
+animerec/.env
+
+# ==========================================
+# Logs (Applies everywhere)
+# ==========================================
+**/logs/
+**/*.log
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/lerna-debug.log*
+
+# ==========================================
+# IDE & System Files (Applies everywhere)
+# ==========================================
+**/.vscode/*
+!**/.vscode/extensions.json
+**/.idea/
+**/.DS_Store
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
+**/*.sw?
