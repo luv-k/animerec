@@ -1,0 +1,57 @@
+# Environment and secrets
+.env
+.env.*
+*.env
+.venv/
+venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend artifacts
+node_modules/
+dist/
+dist-ssr/
+coverage/
+.vite/
+.parcel-cache/
+*.tsbuildinfo
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+*.rej
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Windows metadata files
+*.Zone.Identifier
+
+# Large/generated media and data folders
+media/
+data/
+*.mp4
+*.mov
+*.avi
+*.mkv
